@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+
+}
+
+img{
+    width: 92.5px;
+    height: 29.6px;
+    padding: 22px 0px;
+
+}
+nav{
+    padding: 0 4%;
+    background-color: rgb(0,0,0,0.5);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto";
+    
+}
+a:hover{
+    color: #E5E5E5;
+
+}
+.l_b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.browse{
+    
+    font-size: 1.2rem;
+    /*list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;*/
+    
+}
