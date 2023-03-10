@@ -12,7 +12,9 @@ img{
 }
 nav{
     padding: 0 4%;
-    background-color: rgb(0,0,0,0.5);
+    background-image: linear-gradient(black, rgb(0,0,0,0.89));
+    width: 100%;
+    height: 68px;
 
 }
 a{
@@ -20,9 +22,11 @@ a{
     text-decoration: none;
     font-family: "Roboto";
     
+    
 }
 a:hover{
     color: #E5E5E5;
+    transition: color .4s;
 
 }
 .l_b{
@@ -31,13 +35,11 @@ a:hover{
     align-items: center;
 }
 .browse{
+    display: flex;
+    font-size: 0.9rem;
+    list-style: none;
+    column-gap: 1.3em;
     
-    font-size: 1.2rem;
-    /*list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;*/
+    
     
 }
