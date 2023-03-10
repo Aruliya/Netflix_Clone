@@ -12,9 +12,14 @@ img{
 }
 nav{
     padding: 0 4%;
-    background-image: linear-gradient(black, rgb(0,0,0,0.89));
-    width: 100%;
+    background-color: black;
+    
+    
     height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
 
 }
 a{
@@ -31,7 +36,7 @@ a:hover{
 }
 .l_b{
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
 }
 .browse{
@@ -39,7 +44,24 @@ a:hover{
     font-size: 0.9rem;
     list-style: none;
     column-gap: 1.3em;
+      
+}
+
+.selection{
+    display: flex;
+    /*flex-direction: row;*/
+    
+    position: absolute;
+    right:5%;
+    column-gap: 1.2em;
     
     
-    
+}
+
+button{
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
 }
