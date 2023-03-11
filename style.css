@@ -1,7 +1,14 @@
-
 *{
     margin: 0;
 
+}
+body{
+    background-image: url('http://occ-0-2484-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeE4QzLnGoH3E8xNYgvoCBAiEg3M-Cgn9cKrPR9Qi_1WnZDpP_2stXTjcVB7XMTw3vaPHNAU7eBiYdQGG4xwYQpLXuJWJUw6sWO6.webp?r=4cf');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
 }
 
 img{
@@ -9,6 +16,10 @@ img{
     height: 29.6px;
     padding: 22px 0px;
 
+}
+.title-logo{
+    width: 354.24px;
+    height: 141.69px;
 }
 nav{
     padding: 0 4%;
@@ -64,4 +75,21 @@ button{
     border: none;
     background: none;
     color: white;
+}
+
+.title_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    padding-left: 4%;
+    padding-top: 7%;
+    
+    
+}
+.desc{
+    color: white;
+    font-family: 'Roboto';
+    
+    
 }
