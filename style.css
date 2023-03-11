@@ -18,8 +18,8 @@ img{
 
 }
 .title-logo{
-    width: 354.24px;
-    height: 141.69px;
+    width: 540px;
+    height: 220px; 
 }
 nav{
     padding: 0 4%;
@@ -82,14 +82,15 @@ button{
     flex-direction: column;
     justify-content: space-evenly;
     
-    padding-left: 4%;
-    padding-top: 7%;
+    margin-left: 4%;
+    margin-top: 5.6%;
+
+    width: 35%;
     
     
 }
 .desc{
     color: white;
-    font-family: 'Roboto';
-    
-    
+    font-family: 'Roboto'; 
+    font-size: 1.2vw  
 }
