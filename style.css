@@ -188,15 +188,15 @@ span{
 .buttons{
     display: flex;
     column-gap: 0.8em;
-    
+    padding-top: 20px;
     
     
 }
 .playbutton{
     color: black;
     background-color: white;
-    width: 92.1px;
-    height: 33.5px;
+    width: 130px;
+    height: 45px;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -207,24 +207,33 @@ span{
 .infobutton{
     color: white;
     background-color: #6D6D6EB3;
-    width: 125.09px;
-    height: 33.5px;
+    width: 180px;
+    height: 45px;
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 0.7em;
     font-family: 'Roboto';
+    
 
 }
-
-
-
-.playbutton > span{
+.texts{
+    
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 2.4rem;
 }
-.infobutton > span{
-    font-weight: 500;
-    line-height: 2.4rem;
+.infoicon{
+    filter: contrast(0%);
 }
+
+.playbutton:hover{
+    background-color: #c9c6c6;
+}
+.infobutton:hover{
+    background-color: #c9c6c68a;
+}
+
+
+
