@@ -6,8 +6,9 @@ body{
     background-image: url('http://occ-0-2484-3647.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeE4QzLnGoH3E8xNYgvoCBAiEg3M-Cgn9cKrPR9Qi_1WnZDpP_2stXTjcVB7XMTw3vaPHNAU7eBiYdQGG4xwYQpLXuJWJUw6sWO6.webp?r=4cf');
     
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
+    
     
 }
 
@@ -43,13 +44,13 @@ a{
     
 }
 a:hover{
-    color: #E5E5E5;
+    color: #a8a8a8;
     transition: color .4s;
 
 }
 .l_b{
     display: flex;
-    
+    position: fixed;
     align-items: center;
 }
 .browse{
@@ -67,6 +68,7 @@ a:hover{
     position: absolute;
     right:5.5%;
     column-gap: 1.5em;
+    align-items: center;
     
     
 }
@@ -116,7 +118,7 @@ button{
 }
 .menu{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     
 
 }
@@ -135,7 +137,7 @@ button{
 }
 .dropdown{
     position: relative;
-    display: inline-block;
+    display: inline;
 }
 
 .dropdown-content{
@@ -172,14 +174,12 @@ button{
     text-decoration: underline;
 }
 .dropdown:hover .dropdown-content{
-    display: block;
-    
-
-    
+    display: block; 
 }
 
-span{
+.dropdown-content > span{
     vertical-align: middle;
+    text-align: center;
 }
 .line{
     border: 1px solid hsla(0,0%,100%,.15);
@@ -188,6 +188,7 @@ span{
     display: flex;
     column-gap: 0.8em;
     padding-top: 20px;
+    
     
     
 }
@@ -240,7 +241,7 @@ span{
 
 }
 .notification{
-    
+    align-items: center;
     
 }
 
@@ -259,11 +260,46 @@ span{
     text-align: center;
     border-top: 3px solid hsla(0, 0%, 88%, 0.7);
     border-bottom: 2px solid hsla(0,0%,100%,.15);
+    overflow: hidden;
 
 
    
 }
 .notification:hover .noti-content{
     display: block;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.shows{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-left: 4%;
+    line-height: 2.6;
+    font-size: 1.4rem;
+    background-color: transparent;
+    
+    
+}
+
+.parent{
+    display: flex;
+    gap: 8px;
+    margin-left: 4%;
+    background-color: #141414;;
+}
+.parent_img{
+    border-radius: 3px;
+    width: 224.73px;
+    height: 126.53px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5%;
 
 }
