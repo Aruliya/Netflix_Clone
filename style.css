@@ -140,18 +140,17 @@ button{
 
 .dropdown-content{
     display: none;
-    position: relative;
-    top: 60px;
-    right: 30px;
+    position: absolute;
+    
 
     background-color: rgb(0,0,0,0.85);
     width: 200px;
     z-index: 1;
     border: 1px solid hsla(0,0%,100%,.15);
      
-    height: auto;
+    
     padding: 5px 0 5px;
-    box-sizing: border-box;
+    
     line-height: 21px;
     
     
@@ -174,7 +173,7 @@ button{
 }
 .dropdown:hover .dropdown-content{
     display: block;
-    position: absolute;
+    
 
     
 }
@@ -234,6 +233,37 @@ span{
 .infobutton:hover{
     background-color: #c9c6c68a;
 }
+.notification > button{
+    position: relative;
+    display: inline-block;
 
 
+}
+.notification{
+    
+    
+}
 
+.noti-content{
+    display: flex;
+    padding: 12px 16px;
+    display: none;
+    position: absolute;
+    background-color: rgb(0,0,0,0.85);
+    width: 230px;
+    height: 70px;
+    z-index: 1;
+    border: 1px solid hsla(0,0%,100%,.15);
+    color:  hsla(0,0%,100%,.15);
+    font-family: "Roboto";
+    text-align: center;
+    border-top: 3px solid hsla(0, 0%, 88%, 0.7);
+    border-bottom: 2px solid hsla(0,0%,100%,.15);
+
+
+   
+}
+.notification:hover .noti-content{
+    display: block;
+
+}
